@@ -1,6 +1,6 @@
 var n=5;
 var curr;
-var max = 0; 
+var max = 0;
 while(n !== 0 && n % 2 === 0) {
     n >>>= 1;
 }
