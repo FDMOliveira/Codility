@@ -15,6 +15,8 @@ For example, given N = 1041 the function should return 5, because N has binary r
 Assume that:
 
 N is an integer within the range [1..2,147,483,647].
+
+
 Complexity:
 
 expected worst-case time complexity is O(log(N));
