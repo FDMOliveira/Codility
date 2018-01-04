@@ -5,7 +5,7 @@ var sum2=0;
 var resultado, prev;
 var duplicado = false;
    
-A.sort(); // Ordena o array segundo a identificação de cada caractere
+A.sort(); // Ordena o array segundo a identificação de cada caractére
          // na tabela de valores unicode
 for ( var i = 0; i < A.length; i++ ) {
     if ( A[i] == prev )
