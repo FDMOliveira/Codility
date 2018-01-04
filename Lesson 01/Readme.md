@@ -13,8 +13,10 @@ that, given a positive integer N, returns the length of its longest binary gap. 
 For example, given N = 1041 the function should return 5, because N has binary representation 10000010001 and so its longest binary gap is of length 5.
 
 Assume that:
+
 N is an integer within the range [1..2,147,483,647].
 Complexity:
 
 expected worst-case time complexity is O(log(N));
+
 expected worst-case space complexity is O(1).
