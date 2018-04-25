@@ -6,8 +6,6 @@
 //   both 3 and 7 "FizzWoof", both 5 and 7 "BuzzWoof" 
 //   and all of 3, 5 and 7 "FizzBuzzWoof".
 //
-
-var n=24;
 var retorno="";
 for (i=1;i<=n;i++) {
     if (i % 3 === 0) {
@@ -15,8 +13,8 @@ for (i=1;i<=n;i++) {
             if(i % 7 === 0) {
                 retorno="FizzBuzzWoof";
             }
-            else
-            retorno="FizzBuzz";
+        else
+        retorno="FizzBuzz";
         }
         else
         if (i % 7 === 0)
@@ -28,8 +26,8 @@ for (i=1;i<=n;i++) {
     if (i % 5 === 0) {
         if (i % 7 === 0)
             retorno="BuzzWoof";
-            else
-            retorno="Buzz";
+        else
+        retorno="Buzz";
     }
     else
     if (i % 7 === 0)
