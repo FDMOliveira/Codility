@@ -6,16 +6,17 @@
 //   both 3 and 7 "FizzWoof", both 5 and 7 "BuzzWoof" 
 //   and all of 3, 5 and 7 "FizzBuzzWoof".
 //
-
-for (i=1;i<=n;i++) {
-    var retorno="";
-    if (i % 3 === 0) 
-        retorno+="Fizz";
-    if (i % 5 === 0)
-        retorno+="Buzz";
-    if (i % 7 === 0)
-        retorno+="Woof";
-    if (retorno=="")
-        retorno=i;
-    console.log(retorno);
+function FizzBuzzWoof (n) {
+    for (i=1;i<=n;i++) {
+        var retorno="";
+        if (i % 3 === 0) 
+            retorno+="Fizz";
+        if (i % 5 === 0)
+            retorno+="Buzz";
+        if (i % 7 === 0)
+            retorno+="Woof";
+        if (retorno=="")
+            retorno=i;
+        console.log(retorno);
+    }
 }
