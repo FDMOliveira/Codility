@@ -6,7 +6,7 @@
 //   both 3 and 7 "FizzWoof", both 5 and 7 "BuzzWoof" 
 //   and all of 3, 5 and 7 "FizzBuzzWoof".
 //
-var n=24;
+
 for (i=1;i<=n;i++) {
     var retorno="";
     if (i % 3 === 0) 
